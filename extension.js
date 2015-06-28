@@ -22,7 +22,7 @@
 
          bot.commands.commandCommand = {
          command: 'cmd',
-         rank: 'user/bouncer/mod/manager',
+         rank: 'manager',
          type: 'startsWith/exact',
          functionality: function(chat, cmd){
          if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -56,16 +56,16 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "SlimeBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 50, // 1-200
+        startupVolume: 50, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         smartSkip: true,
         cmdDeletion: true,
-        maximumAfk: 120,
+        maximumAfk: 60,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -75,11 +75,11 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
-        historySkip: false,
+        voteSkip: true,
+        voteSkipLimit: 2,
+        historySkip: true,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 7,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -95,9 +95,9 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "07. 03. (péntek) 21:00 [CEST/UTC+2]",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -109,7 +109,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
