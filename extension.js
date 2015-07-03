@@ -97,7 +97,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "07. 03. (péntek) 21:00 [CEST/UTC+2] RAP PARTY! Ne hagyd ki a közösség első rap fesztiválát!",
+        motd: "MA 21:00 [CEST/UTC+2] RAP PARTY! Ne hagyd ki a közösség első rap fesztiválát!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
