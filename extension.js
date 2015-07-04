@@ -97,7 +97,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "MA 21:00 [CEST/UTC+2] RAP PARTY! Ne hagyd ki a közösség első rap fesztiválát!",
+        motd: "Glitch Hop vagy House? http://strawpoll.me/4821637",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
