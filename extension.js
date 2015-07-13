@@ -97,7 +97,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Jövő pénteken Glitch Hop Night! Részletek: http://slimeking14.wix.com/slimedj#!parties/cbv0",
+        motd: "Pénteken Glitch Hop Night! Részletek: http://slimeking14.wix.com/slimedj#!parties/cbv0",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
