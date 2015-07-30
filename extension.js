@@ -97,7 +97,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Ma Glitch Hop Night! Részletek: http://slimeking14.wix.com/slimedj#!parties/cbv0",
+        motd: "A teljes élményért: https://rcs.radiant.dj/",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
