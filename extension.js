@@ -96,7 +96,7 @@
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: true,
-        motdInterval: 5,
+        motdInterval: 3,
         motd: "A teljes élményért: https://rcs.radiant.dj/",
         filterChat: true,
         etaRestriction: false,
